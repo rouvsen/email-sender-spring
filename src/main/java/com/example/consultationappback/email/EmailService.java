@@ -38,16 +38,16 @@ public class EmailService {
             mimeMessageHelper2.setText(
                     String.format("""
                         New Consultation Notification!
-                        ad: %s,
-                        age: %s,
-                        phone: %s,
-                        email: %s,
-                        field: %s,
-                        fieldSpec: %s,
-                        whyUs: %s,
-                        howContact: %s,
-                        dateContact: %s,
-                        feedback: %s
+                        Ad: %s,
+                        Yash: %s,
+                        Nomre: %s,
+                        Email: %s,
+                        Sahe: %s,
+                        Alt sahe: %s,
+                        Niye biz? %s,
+                        Elaqe nece? %s,
+                        Elaqe zaman? %s,
+                        Serh & irad? %s
                     """,
                             info.getFirstName(),
                             info.getAge(),
